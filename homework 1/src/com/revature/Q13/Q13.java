@@ -6,11 +6,11 @@ public class Q13 {
 		
 		int stream = 1;
 		
-		for(int i = 1; i<=4;i++) {
+		for(int i = 0; i < 4; i++) {
 			
 			StringBuilder a = new StringBuilder();
 			
-			for(int j = 0; j < i; j++){
+			for(int j = 0; j <= i; j++){
 				
 				stream = (stream == 1)? 0 : 1;
 				a.append(stream + " ");
